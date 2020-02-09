@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		EC7D090F23F098D400BFBB28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D090E23F098D400BFBB28 /* AppDelegate.swift */; };
 		EC7D091123F098D400BFBB28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D091023F098D400BFBB28 /* SceneDelegate.swift */; };
-		EC7D091623F098D400BFBB28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7D091423F098D400BFBB28 /* Main.storyboard */; };
 		EC7D091823F098D700BFBB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7D091723F098D700BFBB28 /* Assets.xcassets */; };
 		EC7D091B23F098D700BFBB28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7D091923F098D700BFBB28 /* LaunchScreen.storyboard */; };
 		EC7D092323F09D2800BFBB28 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D092223F09D2800BFBB28 /* SearchVC.swift */; };
 		EC7D092523F09D5000BFBB28 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D092423F09D5000BFBB28 /* FavoritesListVC.swift */; };
+		EC7D092723F0A3E500BFBB28 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D092623F0A3E500BFBB28 /* GFButton.swift */; };
+		EC7D092923F0A6A500BFBB28 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D092823F0A6A500BFBB28 /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC7D090B23F098D400BFBB28 /* iOS_GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7D090E23F098D400BFBB28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7D091023F098D400BFBB28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC7D091523F098D400BFBB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC7D091723F098D700BFBB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC7D091A23F098D700BFBB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC7D091C23F098D700BFBB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC7D092223F09D2800BFBB28 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		EC7D092423F09D5000BFBB28 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		EC7D092623F0A3E500BFBB28 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		EC7D092823F0A6A500BFBB28 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 		EC7D090D23F098D400BFBB28 /* iOS_GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				EC7D092623F0A3E500BFBB28 /* GFButton.swift */,
+				EC7D092823F0A6A500BFBB28 /* GFTextField.swift */,
 				EC7D090E23F098D400BFBB28 /* AppDelegate.swift */,
 				EC7D091023F098D400BFBB28 /* SceneDelegate.swift */,
-				EC7D091423F098D400BFBB28 /* Main.storyboard */,
 				EC7D091723F098D700BFBB28 /* Assets.xcassets */,
 				EC7D091923F098D700BFBB28 /* LaunchScreen.storyboard */,
 				EC7D091C23F098D700BFBB28 /* Info.plist */,
@@ -130,7 +133,6 @@
 			files = (
 				EC7D091B23F098D700BFBB28 /* LaunchScreen.storyboard in Resources */,
 				EC7D091823F098D700BFBB28 /* Assets.xcassets in Resources */,
-				EC7D091623F098D400BFBB28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7D092923F0A6A500BFBB28 /* GFTextField.swift in Sources */,
 				EC7D092323F09D2800BFBB28 /* SearchVC.swift in Sources */,
+				EC7D092723F0A3E500BFBB28 /* GFButton.swift in Sources */,
 				EC7D092523F09D5000BFBB28 /* FavoritesListVC.swift in Sources */,
 				EC7D090F23F098D400BFBB28 /* AppDelegate.swift in Sources */,
 				EC7D091123F098D400BFBB28 /* SceneDelegate.swift in Sources */,
@@ -151,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC7D091423F098D400BFBB28 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC7D091523F098D400BFBB28 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC7D091923F098D700BFBB28 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
