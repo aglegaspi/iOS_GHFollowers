@@ -32,13 +32,27 @@ class FollowerListVC: UIViewController {
     }
     
     func configureCollectionView() {
-        // initializd the object
-        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: UICollectionViewFlowLayout())
+        // initializd the object with a custom flow layout
+        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createThreeColumnFlowLayout())
         //then use the object
         view.addSubview(collectionView)
         collectionView.backgroundColor = .systemPink
         // use the reuseID instance on the custom cell
         collectionView.register(FollowerCell.self, forCellWithReuseIdentifier: FollowerCell.reuseID)
+    }
+    
+    func createThreeColumnFlowLayout() -> UICollectionViewFlowLayout {
+        let width                       = view.bounds.width
+        let padding: CGFloat            = 12
+        let miniumItemSpacing: CGFloat  = 10
+        let availableWidth              = width - (padding * 2) - (miniumItemSpacing * 2)
+        let itemWidth                   = availableWidth / 3
+        
+        let flowLayout                  = UICollectionViewFlowLayout()
+        flowLayout.sectionInset         = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
+        flowLayout.itemSize             = CGSize(width: itemWidth, height: itemWidth + 40) // buys extra space for label
+        
+        return flowLayout
     }
     
     func getFollowers() {
