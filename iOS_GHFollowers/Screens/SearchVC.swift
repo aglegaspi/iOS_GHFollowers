@@ -29,7 +29,7 @@ class SearchVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         //THIS GETS CALLED EVERYTIME THE VIEW APPEARS
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
     //MARK: -FUNCTIONS
