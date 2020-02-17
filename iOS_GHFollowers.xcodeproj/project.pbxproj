@@ -29,6 +29,7 @@
 		EC7D094923F16EFC00BFBB28 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D094823F16EFC00BFBB28 /* GFAvatarImageView.swift */; };
 		EC7D094B23F17F2A00BFBB28 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D094A23F17F2A00BFBB28 /* UIHelper.swift */; };
 		ECB6AC2323FA181300ABD367 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6AC2223FA181300ABD367 /* GFEmptyStateView.swift */; };
+		ECB6AC2523FA275F00ABD367 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6AC2423FA275F00ABD367 /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		EC7D094823F16EFC00BFBB28 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		EC7D094A23F17F2A00BFBB28 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		ECB6AC2223FA181300ABD367 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		ECB6AC2423FA275F00ABD367 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				EC7D092223F09D2800BFBB28 /* SearchVC.swift */,
 				EC7D092A23F0F51E00BFBB28 /* FollowerListVC.swift */,
+				ECB6AC2423FA275F00ABD367 /* UserInfoVC.swift */,
 				EC7D092423F09D5000BFBB28 /* FavoritesListVC.swift */,
 			);
 			path = Screens;
@@ -308,6 +311,7 @@
 				EC7D094723F16E9000BFBB28 /* FollowerCell.swift in Sources */,
 				EC7D094923F16EFC00BFBB28 /* GFAvatarImageView.swift in Sources */,
 				EC7D093323F0FE3E00BFBB28 /* GFAlertVC.swift in Sources */,
+				ECB6AC2523FA275F00ABD367 /* UserInfoVC.swift in Sources */,
 				EC7D093C23F10E3000BFBB28 /* Follower.swift in Sources */,
 				EC7D090F23F098D400BFBB28 /* AppDelegate.swift in Sources */,
 				EC7D092F23F0FBAF00BFBB28 /* GFTitleLabel.swift in Sources */,
