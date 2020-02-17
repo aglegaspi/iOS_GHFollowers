@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  iOS_GHFollowers
 //
-//  Created by Alex 6.1 on 2/10/20.
+//  Created by Alex 6.1 on 2/16/20.
 //  Copyright © 2020 aglegaspi. All rights reserved.
 //
 
