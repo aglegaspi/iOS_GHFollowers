@@ -36,7 +36,8 @@ class GFTextField: UITextField {
         backgroundColor             = .tertiarySystemBackground
         autocorrectionType          = .no
         keyboardType                = .emailAddress
-        returnKeyType               = .go // 
+        returnKeyType               = .go
+        clearButtonMode             = .whileEditing // ADDS AN X IN THE TEXTFIELD TO CLEAR OUT
         placeholder                 = "Enter A Username"
     }
 

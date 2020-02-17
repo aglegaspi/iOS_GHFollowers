@@ -41,6 +41,7 @@
 		ECFA7DC523FAC577007ED52C /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA7DC423FAC577007ED52C /* String+Ext.swift */; };
 		ECFA7DC723FAE5F6007ED52C /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA7DC623FAE5F6007ED52C /* PersistenceManager.swift */; };
 		ECFA7DC923FAF5A0007ED52C /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA7DC823FAF5A0007ED52C /* FavoriteCell.swift */; };
+		ECFA7DCC23FB06D2007ED52C /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA7DCB23FB06D2007ED52C /* GFTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		ECFA7DC423FAC577007ED52C /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		ECFA7DC623FAE5F6007ED52C /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		ECFA7DC823FAF5A0007ED52C /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		ECFA7DCB23FB06D2007ED52C /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		EC7D093723F1088300BFBB28 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				ECFA7DCA23FB06AC007ED52C /* Tab Bar Controllers */,
 				ECB6AC2123FA17EC00ABD367 /* Labels */,
 				ECB6AC2023FA17CD00ABD367 /* View Controllers */,
 				ECB6AC1F23FA17C100ABD367 /* Text Fields */,
@@ -271,6 +274,14 @@
 			path = ItemInfoVCs;
 			sourceTree = "<group>";
 		};
+		ECFA7DCA23FB06AC007ED52C /* Tab Bar Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECFA7DCB23FB06D2007ED52C /* GFTabBarController.swift */,
+			);
+			path = "Tab Bar Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -373,6 +384,7 @@
 				ECB6AC2F23FAB78F00ABD367 /* GFItemInfoView.swift in Sources */,
 				EC7D093123F0FD8300BFBB28 /* GFBodyLabel.swift in Sources */,
 				ECB6AC2D23FA4F7A00ABD367 /* Constants.swift in Sources */,
+				ECFA7DCC23FB06D2007ED52C /* GFTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
