@@ -20,10 +20,9 @@ class GFSecondaryTitleLabel: UILabel {
     }
     
     // we want to pass in the alignment
-    init(fontSize: CGFloat) {
-        super.init(frame: .zero)
+   convenience init(fontSize: CGFloat) {
+        self.init(frame: .zero)
         font = UIFont.systemFont(ofSize: fontSize, weight: .medium)
-        configure()
     }
     
     private func configure() {
