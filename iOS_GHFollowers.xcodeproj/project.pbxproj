@@ -34,6 +34,7 @@
 		ECB6AC2B23FA48FC00ABD367 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6AC2A23FA48FC00ABD367 /* GFSecondaryTitleLabel.swift */; };
 		ECB6AC2D23FA4F7A00ABD367 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6AC2C23FA4F7A00ABD367 /* Constants.swift */; };
 		ECB6AC2F23FAB78F00ABD367 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6AC2E23FAB78F00ABD367 /* GFItemInfoView.swift */; };
+		ECB6AC3123FABCA100ABD367 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6AC3023FABCA100ABD367 /* GFItemInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		ECB6AC2A23FA48FC00ABD367 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		ECB6AC2C23FA4F7A00ABD367 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ECB6AC2E23FAB78F00ABD367 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		ECB6AC3023FABCA100ABD367 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 			children = (
 				EC7D093223F0FE3E00BFBB28 /* GFAlertVC.swift */,
 				ECB6AC2823FA489600ABD367 /* GFUserInfoHeaderVC.swift */,
+				ECB6AC3023FABCA100ABD367 /* GFItemInfoVC.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				EC7D093C23F10E3000BFBB28 /* Follower.swift in Sources */,
 				EC7D090F23F098D400BFBB28 /* AppDelegate.swift in Sources */,
 				EC7D092F23F0FBAF00BFBB28 /* GFTitleLabel.swift in Sources */,
+				ECB6AC3123FABCA100ABD367 /* GFItemInfoVC.swift in Sources */,
 				EC7D091123F098D400BFBB28 /* SceneDelegate.swift in Sources */,
 				EC7D094B23F17F2A00BFBB28 /* UIHelper.swift in Sources */,
 				EC7D094123F1140D00BFBB28 /* NetworkManager.swift in Sources */,
