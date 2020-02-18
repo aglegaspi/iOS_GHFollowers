@@ -26,11 +26,12 @@ class GFBodyLabel: UILabel {
     }
     
     private func configure() {
-        textColor                   = .secondaryLabel // changes according to light or dark mode
-        font                        = UIFont.preferredFont(forTextStyle: .body)
-        adjustsFontSizeToFitWidth   = true // how it scales to device/view
-        minimumScaleFactor          = 0.75 // does down to 75% of the size
-        lineBreakMode               = .byWordWrapping // keeps titles one line
+        textColor                           = .secondaryLabel // changes according to light or dark mode
+        font                                = UIFont.preferredFont(forTextStyle: .body)
+        adjustsFontForContentSizeCategory   = true
+        adjustsFontSizeToFitWidth           = true // how it scales to device/view
+        minimumScaleFactor                  = 0.75 // does down to 75% of the size
+        lineBreakMode                       = .byWordWrapping // keeps titles one line
         translatesAutoresizingMaskIntoConstraints = false
         
     }
