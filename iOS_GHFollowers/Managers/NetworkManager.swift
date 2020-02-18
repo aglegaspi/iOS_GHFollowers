@@ -9,9 +9,10 @@
 import UIKit
 
 class NetworkManager {
-    static let shared   = NetworkManager()
-    private let baseURL         = "https://api.github.com"
-    let cache           = NSCache<NSString,UIImage>()
+    
+    static let shared       = NetworkManager()
+    private let baseURL     = "https://api.github.com"
+    let cache               = NSCache<NSString,UIImage>()
     
     private init() {}
     
@@ -38,7 +39,6 @@ class NetworkManager {
                 return
             }
             
-            // success case
             do {
                 let decoder = JSONDecoder()
                 decoder.keyDecodingStrategy = .convertFromSnakeCase
@@ -76,7 +76,6 @@ class NetworkManager {
                 return
             }
             
-            // success case
             do {
                 let decoder                     = JSONDecoder()
                 decoder.keyDecodingStrategy     = .convertFromSnakeCase
@@ -104,7 +103,6 @@ class NetworkManager {
             completed(nil)
             return
         }
-        // placeholder image is used to handle errors
         
         let task = URLSession.shared.dataTask(with: url) { [weak self] (data, response, error) in
             guard let self = self,

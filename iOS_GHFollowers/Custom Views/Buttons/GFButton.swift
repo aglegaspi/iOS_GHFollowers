@@ -15,12 +15,10 @@ class GFButton: UIButton {
         configure()
     }
     
-    //HANDLES THE STORYBOARD CASE EVEN WHEN NOT USING.
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    //CUSTOM INITIALIZER
     convenience init(backgroundColor: UIColor, title: String) {
         self.init(frame: .zero)
         self.backgroundColor = backgroundColor

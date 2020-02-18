@@ -18,8 +18,7 @@ class GFSecondaryTitleLabel: UILabel {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    // we want to pass in the alignment
+
    convenience init(fontSize: CGFloat) {
         self.init(frame: .zero)
         font = UIFont.systemFont(ofSize: fontSize, weight: .medium)
@@ -31,7 +30,6 @@ class GFSecondaryTitleLabel: UILabel {
         minimumScaleFactor          = 0.90 // does down to 75% of the size
         lineBreakMode               = .byTruncatingTail // keeps titles one line
         translatesAutoresizingMaskIntoConstraints = false
-        
     }
 
 }

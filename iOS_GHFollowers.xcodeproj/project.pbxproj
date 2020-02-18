@@ -137,8 +137,8 @@
 			children = (
 				EC7D092223F09D2800BFBB28 /* SearchVC.swift */,
 				EC7D092A23F0F51E00BFBB28 /* FollowerListVC.swift */,
-				ECB6AC2423FA275F00ABD367 /* UserInfoVC.swift */,
 				EC7D092423F09D5000BFBB28 /* FavoritesListVC.swift */,
+				ECB6AC2423FA275F00ABD367 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -255,10 +255,10 @@
 		ECB6AC2023FA17CD00ABD367 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				ECB6AC3623FAC26A00ABD367 /* ItemInfoVCs */,
 				EC7D093223F0FE3E00BFBB28 /* GFAlertVC.swift */,
 				ECB6AC2823FA489600ABD367 /* GFUserInfoHeaderVC.swift */,
 				ECFA7DCF23FB5BC5007ED52C /* GFDataLoadingVC.swift */,
-				ECB6AC3623FAC26A00ABD367 /* ItemInfoVCs */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -276,9 +276,9 @@
 		ECB6AC3623FAC26A00ABD367 /* ItemInfoVCs */ = {
 			isa = PBXGroup;
 			children = (
+				ECB6AC3023FABCA100ABD367 /* GFItemInfoVC.swift */,
 				ECB6AC3223FABFAD00ABD367 /* GFRepoItemVC.swift */,
 				ECB6AC3423FAC21300ABD367 /* GFFollowerItemVC.swift */,
-				ECB6AC3023FABCA100ABD367 /* GFItemInfoVC.swift */,
 			);
 			path = ItemInfoVCs;
 			sourceTree = "<group>";
