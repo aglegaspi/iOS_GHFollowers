@@ -201,6 +201,7 @@ extension FollowerListVC: UserInfoVCDelegate {
     func didRequestFollowers(for username: String) {
         self.username = username
         title = username
+        hasMoreFollowers = true
         page = 1
         followers.removeAll()
         filteredFollowers.removeAll()

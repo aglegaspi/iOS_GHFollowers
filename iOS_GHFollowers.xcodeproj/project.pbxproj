@@ -44,6 +44,7 @@
 		ECFA7DCE23FB541C007ED52C /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA7DCD23FB541C007ED52C /* GFAlertContainerView.swift */; };
 		ECFA7DD023FB5BC5007ED52C /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA7DCF23FB5BC5007ED52C /* GFDataLoadingVC.swift */; };
 		ECFA7DD223FB6C9F007ED52C /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA7DD123FB6C9F007ED52C /* UIView+Ext.swift */; };
+		ECFA7DD423FB7721007ED52C /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA7DD323FB7721007ED52C /* UITableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		ECFA7DCD23FB541C007ED52C /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		ECFA7DCF23FB5BC5007ED52C /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		ECFA7DD123FB6C9F007ED52C /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		ECFA7DD323FB7721007ED52C /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				EC7D093423F1055600BFBB28 /* UIViewController+Ext.swift */,
 				ECFA7DC223FAC558007ED52C /* Date+Ext.swift */,
 				ECFA7DD123FB6C9F007ED52C /* UIView+Ext.swift */,
+				ECFA7DD323FB7721007ED52C /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				EC7D093323F0FE3E00BFBB28 /* GFAlertVC.swift in Sources */,
 				ECB6AC2523FA275F00ABD367 /* UserInfoVC.swift in Sources */,
 				EC7D093C23F10E3000BFBB28 /* Follower.swift in Sources */,
+				ECFA7DD423FB7721007ED52C /* UITableView+Ext.swift in Sources */,
 				EC7D090F23F098D400BFBB28 /* AppDelegate.swift in Sources */,
 				EC7D092F23F0FBAF00BFBB28 /* GFTitleLabel.swift in Sources */,
 				ECB6AC3123FABCA100ABD367 /* GFItemInfoVC.swift in Sources */,

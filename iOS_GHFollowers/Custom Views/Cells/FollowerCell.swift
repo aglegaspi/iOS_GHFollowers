@@ -20,7 +20,7 @@ class FollowerCell: UICollectionViewCell {
     }
     
     override func prepareForReuse() {
-        //avatarImageView.image = nil
+        avatarImageView.image = Images.placeholderImage
         usernameLabel.text = nil
     }
     
